@@ -1,1 +1,0 @@
-# koibanx-frontend-challenge
