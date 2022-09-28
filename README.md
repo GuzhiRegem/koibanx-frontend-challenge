@@ -1,4 +1,6 @@
 # koibanx-frontend-challenge
+[DEPLOY EN GITHUB PAGES](https://guzhiregem.github.io/koibanx-frontend-challenge/)
+(no conectado a API)
 ## Iniciar:
 ```
   > npm i
