@@ -6,7 +6,7 @@
   > npm i
   > npm start
 ```
-## Deploy en GH-Pages
+### Deploy en GH-Pages
 ```
   > npm run deploy
 ```
