@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/koibanx-frontend-challenge/static/css/main.31d6fc49.css",
+    "main.js": "/koibanx-frontend-challenge/static/js/main.348f1277.js",
+    "index.html": "/koibanx-frontend-challenge/index.html",
+    "main.31d6fc49.css.map": "/koibanx-frontend-challenge/static/css/main.31d6fc49.css.map",
+    "main.348f1277.js.map": "/koibanx-frontend-challenge/static/js/main.348f1277.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6fc49.css",
+    "static/js/main.348f1277.js"
+  ]
+}
