@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+table {
+	background-color: black;
+	padding: 2vmin;
+	border-radius: 5px;
+	margin: auto;
+	color: aliceblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+td, th {
+	padding: 1vmin;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.asc::before {
+	content: '↓';
+	margin: 2px
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.desc::before {
+	content: '↑';
+	margin: 2px
 }
-
-.App-link {
-  color: #61dafb;
+td {
+	background-color: aliceblue;
+	border-radius: 2px;
+	color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+	color: aliceblue;
+}
+input[type=text] {
+	width: 100%;
+}
+input, select {
+	margin: 0 10px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
