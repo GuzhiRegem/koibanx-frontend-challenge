@@ -4,6 +4,10 @@
   > npm i
   > npm start
 ```
+## Deploy en GH-Pages
+```
+  > npm run deploy
+```
 Configuraciones disponibles en archivo *.env* :
 |config|default|desc|
 |-|-|-|
